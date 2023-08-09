@@ -8,14 +8,12 @@ async function fetchBooks() {
   return data.docs.map((book) => ({
     title: book.title,
     author: book.author ? book.author_name.join(',') : 'Unknown Author',
-    coverUrl:`https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`,
+    coverUrl: `https://covers.openlibrary.org/b/id/${book.cover_i}-M.jpg`,
   }));
 }
 const BooksEl = document.querySelector('.Books');
 function dispalyBooks(Books) {
-  let count = 0;
   Books.forEach((book) => {
-    count += 1;
     BooksEl.innerHTML += `
             <div id="" class="book-card">
             <div class="book-img">
