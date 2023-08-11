@@ -21,6 +21,7 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Live Demo](#demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -120,6 +121,9 @@ Run this  command:
 ```sh
   npm start
 ```
+### Demo
+
+Live demo
 
 
 

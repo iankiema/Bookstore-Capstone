@@ -23,15 +23,15 @@ export default class GetBook {
       this.createModal();
       this.getCount();
     } catch (error) {
-      console.log(`Error fetching book with ID ${id}:`, error);
+      console.error(`Error fetching book with ID ${id}:`, error);
     }
   };
 
   static getCount = () => {
-    const pokes = document.querySelectorAll('.poke-card');
+    const pokes = document.querySelectorAll('.book-card');
     const count = this.counterPoke(pokes);
-    const counters = document.querySelector('.poke-count');
-    counters.textContent = `Pokes(${count})`;
+    const counters = document.querySelector('.book-count');
+    counters.textContent = `Books (${count})`;
   }
 
   static counterPoke = (arr) => {
