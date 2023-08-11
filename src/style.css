@@ -9,36 +9,6 @@ body {
   background: #7670e2c7;
 }
 
-/*
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav ul {
-  display: flex;
-  justify-content: end;
-  gap: 10px;
-  width: auto;
-  padding-right: 100px;
-  margin-top: 45px;
-}
-
-nav ul a {
-  color: rgb(11, 9, 9);
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #fff;
-}
-
-nav.active {
-  border-bottom: 2px solid rgba(96, 165, 250, 1.9);
-} */
 footer,
 .navbar {
   display: flex;
