@@ -67,6 +67,10 @@ footer {
   text-align: center;
 }
 
+.book-count {
+  color: #fff;
+}
+
 .book-img {
   background-color: rgba(255, 255, 255, 0.6);
   width: 120px;
