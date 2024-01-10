@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist"  # Update with the actual output directory of your build
+
+[site]
+  command = "npm start"
